@@ -1,0 +1,22 @@
+Audioteka\Application\Data\Product:
+    product (template):
+        id: '<current()>'
+
+    product_{1} (extends product):
+        name: 'The Godfather'
+        price: '5999'
+    product_{2} (extends product):
+        name: 'Steve Jobs'
+        price: '4999'
+    product_{3} (extends product):
+        name: 'The Return of Sherlock Holmes'
+        price: '3999'
+    product_{4} (extends product):
+        name: 'The Little Prince'
+        price: '2999'
+    product_{5} (extends product):
+        name: 'I Hate Myselfie!'
+        price: '1999'
+    product_{6} (extends product):
+        name: 'The Trial'
+        price: '999'

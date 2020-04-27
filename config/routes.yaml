@@ -1,0 +1,14 @@
+index:
+    path: /
+    controller: Audioteka\Web\Action\ShowCatalog
+    methods: [GET]
+
+catalog:
+    path: /products
+    controller: Audioteka\Web\Action\ShowCatalog
+    methods: [GET]
+
+addProduct:
+    path: /products
+    controller: Audioteka\Web\Action\AddProduct
+    methods: [POST]

@@ -1,0 +1,5 @@
+framework:
+    cache:
+        prefix_seed: audioteka
+        app: cache.adapter.redis
+        default_redis_provider: redis://redis:6379

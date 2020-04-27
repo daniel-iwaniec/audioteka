@@ -1,0 +1,8 @@
+framework:
+    messenger:
+        default_bus: command.bus
+        buses:
+            command.bus:
+                middleware: [validation, Audioteka\Application\Middleware\UnitOfWorkMiddleware]
+            query.bus:
+                middleware: [validation]
